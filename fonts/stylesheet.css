@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Harry Potter (Russian Version of Gfdtk)';
+    src: url('HarryPotterRussianVersionofGfdtk.eot');
+    src: url('HarryPotterRussianVersionofGfdtk.eot?#iefix') format('embedded-opentype'),
+        url('HarryPotterRussianVersionofGfdtk.woff2') format('woff2'),
+        url('HarryPotterRussianVersionofGfdtk.woff') format('woff'),
+        url('HarryPotterRussianVersionofGfdtk.ttf') format('truetype'),
+        url('HarryPotterRussianVersionofGfdtk.svg#HarryPotterRussianVersionofGfdtk') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

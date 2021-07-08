@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/lk-media.css">
+	<link rel="stylesheet" href="css/popup-media.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="icon" href="icon/icon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IT HOGWARTS | Личный кабинет</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<div class="pages">
+		<div class="headertwo" id="headertwo">
+			<div class="container">
+				<div class="header__column">
+					<div class="header__row header__up lkheaderup">
+						<a class="head_logo" href="index.html"><img class="header__logo" src="icon/logo.png" alt=""></a>
+						<a class="header__logout" href="#">
+							<img src="icon/logout.svg" alt="">
+						</a>
+					</div>
+					<div class="header__row header__down">
+						<ul class="down__inner lkdown">
+							<li class="faculty">
+								<a href="#">Факультет</a>
+								<ul class="faculty__inner">
+									<li><a href="#">Гриффиндор</a></li>
+									<li><a href="#">Слизерин</a></li>
+									<li><a href="#">Пуффендуй</a></li>
+									<li><a href="#">Когтевран</a></li>
+								</ul>
+							</li>
+							<li class="magiclvl"><a href="leveltwo.html">Уровни магии</a></li>
+							<li class="masterclass"><a href="#">Мастер классы</a></li>
+							<li class="rating"><a href="raiting.html">Рейтинг</a></li>
+							<a href="#burger-popup" class="burger
+							burger-link">
+								<img src="icon/burgermenu.svg" alt="">
+							</a>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content lkcontent">
+			<div class="container lkcontainer">
+				<div class="lk__title">Личный кабинет</div>
+				<div class="lk__row">
+					<div class="lk__ld">
+						<div class="ld__number">№1</div>
+						<div class="ld__faculties">Гриффиндор</div>
+						<div class="ld__img"><img class="lk__img" src="img/germiona.png" alt=""></div>
+						<div class="ld__role">Ученик</div>
+						<div class="ld__fio">
+							<div class="namesure">
+								<p class="fio_name">Гермиона</p>
+								<p class="fio_surname">Грейнджер</p>
+							</div>
+							<a class="fio_edit" href="#"><img src="icon/pen.png" alt=""></a>
+						</div>
+					</div>
+					<div class="lk__osebe">
+						<div class="osebe__title">О себе:</div>
+						<div class="osebe__text"><p>Я очень люблю учёбу и уделяю ей много времени. Иногда я бываю слишком высокомерной и чрезмерно горжусь своими успехами в учёбе.</p></div>
+					</div>
+					<div class="lk__history">
+						<div class="history__title">История участия в соревнованиях:</div>
+						<div class="history__row">
+							<div class="history__name">
+								<p class="name__sorev">Соревнования</p>
+								<p class="name__result">Результат</p>
+							</div>
+							<div class="history__column">
+								<div class="column__items">
+									<p class="column__name">Кубок Хогвартса</p>
+									<p class="column__result">1 место</p>
+								</div>
+								<div class="column__items">
+									<p class="column__name">Игра "Квиддич"</p>
+									<p class="column__result">3 место</p>
+								</div>
+								<div class="column__items">
+									<p class="column__name">Игра "Охота за тортом"</p>
+									<p class="column__result">2 место</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer__row">
+				<div class="row__item">
+					<div class="item__number"><a class="number" href="#">+7 (999)-999-99-99</a></div>
+					<div class="item__mail"><a class="mail" href="#">it_hogwarts@mail.ru</a></div>
+					<nav class="item__social">
+						<a href="https://discord.gg/eFcTwh2EuE" class="discord"></a>
+						<a href="#" class="inst"></a>
+						<a href="https://www.youtube.com/channel/UCxw_UNUYEYuEXdqorO71hfg" class="youtube"></a>
+					</nav>
+				</div>
+				<div class="row__logo"><img src="icon/logo.png" alt=""></div>
+			</div>
+		</div>
+	</div>
+		<div id="burger-popup" class="burger-popup">
+		<div class="dws-burger">
+			<div class="burger__column">
+				<a href="#header" class="burger__close">X</a>
+				<ul class="burger__inner">
+					<li>
+						<a class="faculties" href="#">Факультет</a>
+						<ul class="link__inner">
+							<li><a href="#">Гриффиндор</a></li>
+							<li><a href="#">Слизерин</a></li>
+							<li><a href="#">Пуффендуй</a></li>
+							<li><a href="#">Когтевран</a></li>
+						</ul>
+					</li>
+					<li><a href="leveltwo.html">Уровни магии</a></li>
+					<li><a href="#">Мастер классы</a></li>
+					<li><a href="raiting.html">Рейтинги</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="icon" href="icon/icon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/leveltwo.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/popup-media.css">
+	<title>IT HOGWARTS | Уровни магии</title>
+</head>
+<body>
+	<div class="pages">
+		<div class="headertwo" id="headertwo">
+			<div class="container">
+				<div class="header__column">
+					<div class="header__row header__up">
+						<a class="header__signup popup-link" href="#popup">Зарегистрироваться</a>
+						<a href="#popup" class="signup_logo popup-link"><img src="icon/adduser.svg" alt="#" class="signup__media"></a>
+						<a href="index.html"><img class="header__logo" src="icon/logo.png" alt=""></a>
+						<a class="header__login popup-link" href="#popup">Авторизоваться</a>
+						<a href="#popup" class="login_logo popup-link"><img src="icon/login.svg" alt="#" class="login__media"></a>
+					</div>
+					<div class="header__row header__down">
+						<ul class="down__inner">
+							<li class="faculty">
+								<a href="#">Факультет</a>
+								<ul class="faculty__inner">
+									<li><a href="#">Гриффиндор</a></li>
+									<li><a href="#">Слизерин</a></li>
+									<li><a href="#">Пуффендуй</a></li>
+									<li><a href="#">Когтевран</a></li>
+								</ul>
+							</li>
+							<li class="magiclvl"><a href="leveltwo.html">Уровни магии</a></li>
+							<li class="masterclass"><a href="#">Мастер классы</a></li>
+							<li class="rating"><a href="raiting.html">Рейтинг</a></li>
+							<a href="#burger-popup" class="burger burger-link">
+								<img src="icon/burgermenu.svg" alt="">
+							</a>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="container levelcontainer">
+				<div class="levelmagic">
+					<div class="level__title">Уровни магии</div>
+				</div>
+
+				<div class="lang__column">
+					<div class="lang__row">
+						<div class="lang__item java">
+							<div class="item__title">Уровень магии</div>
+							<div class="item__subtitle">JAVA</div>
+							<a href="#" class="item__button">обучаться</a>
+						</div>
+						<div class="lang__item javascript">
+							<div class="item__title">Уровень магии</div>
+							<div class="item__subtitle">JavaScript</div>
+							<a href="#" class="item__button">обучаться</a>
+						</div>
+					</div>
+					<div class="lang__row">
+						<div class="lang__item php">
+							<div class="item__title">Уровень магии</div>
+							<div class="item__subtitle">PHP</div>
+							<a href="#" class="item__button">обучаться</a>
+						</div>
+						<div class="lang__item python">
+							<div class="item__title">Уровень магии</div>
+							<div class="item__subtitle">Python</div>
+							<a href="#" class="item__button">обучаться</a>
+						</div>
+					</div>
+					<div class="lang__row">
+						<div class="lang__item ccc">
+							<div class="item__title">Уровень магии</div>
+							<div class="item__subtitle">C#</div>
+							<a href="#" class="item__button">обучаться</a>
+						</div>
+						<div class="lang__item html">
+							<div class="item__title">Уровень магии</div>
+							<div class="item__subtitle">HTML/CSS</div>
+							<a href="#" class="item__button">обучаться</a>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="content__button">Определить уровень магии</a>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="footer__row">
+				<div class="row__item">
+					<div class="item__number"><a class="number" href="#">+7 (999)-999-99-99</a></div>
+					<div class="item__mail"><a class="mail" href="#">it_hogwarts@mail.ru</a></div>
+					<nav class="item__social">
+						<a href="https://discord.gg/eFcTwh2EuE" class="discord"></a>
+						<a href="#" class="inst"></a>
+						<a href="https://www.youtube.com/channel/UCxw_UNUYEYuEXdqorO71hfg" class="youtube"></a>
+					</nav>
+				</div>
+				<div class="row__logo"><img src="icon/logo.png" alt=""></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="popup" class="popup">
+	<div class="dws-wrapper">
+		<div class="dws-form">
+			<div class="labels">
+				<label class="tab" title="Авторизация" data-tab="#tabone">Авторизация</label>
+				<label class="tab" title="Регистрация" data-tab="#tabtwo">Регистрация</label>
+			</div>
+			<a href="#header" class="close close-popup">X</a>
+			<form action="#" class="tab-form" id="tabone">
+				<input type="email" placeholder="E-Mail">
+				<input type="password" placeholder="Пароль">
+				<a href="lk.html" class="button">Войти</a>
+				<p class="fyp"><a class="fyp__inner" href="#">Забыл пароль</a></p>
+			</form>
+			<form action="#" class="tab-form" id="tabtwo">
+				<input type="email" placeholder="E-Mail">
+				<div class="ffio">
+					<input class="name" type="text" placeholder="Имя">
+					<input class="surname" type="text" placeholder="Фамилия">
+				</div>
+				<input type="text" placeholder="Роль">
+				<input type="password" placeholder="Создайте пароль">
+				<a href="#" class="button">Регистрация</a>
+			</form>
+		</div>
+	</div>
+</div>
+	<div id="burger-popup" class="burger-popup">
+		<div class="dws-burger">
+			<div class="burger__column">
+				<a href="#header" class="burger__close">X</a>
+				<ul class="burger__inner">
+					<li>
+						<a class="faculties" href="#">Факультет</a>
+						<ul class="link__inner">
+							<li><a href="#">Гриффиндор</a></li>
+							<li><a href="#">Слизерин</a></li>
+							<li><a href="#">Пуффендуй</a></li>
+							<li><a href="#">Когтевран</a></li>
+						</ul>
+					</li>
+					<li><a href="leveltwo.html">Уровни магии</a></li>
+					<li><a href="#">Мастер классы</a></li>
+					<li><a href="raiting.html">Рейтинги</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

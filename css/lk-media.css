@@ -1,0 +1,307 @@
+@media (min-width: 1200px){}
+@media (min-width: 992px) and (max-width: 1190px){
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+	/*-------CONTAINER--------*/
+	.lkcontainer{
+		max-width: 768px;
+		padding: 0 10px;
+	}
+	/*------CONTENT--------*/
+	/*Информация личный кабинет*/
+	.ld__number{
+		font-size: 20px;
+		margin: 0 0 10px 0;
+	}
+	.ld__faculties{
+		font-size: 30px;
+	}
+	.ld__role{
+		font-size: 30px;
+		margin: 0 0 10px 0;
+	}
+	.namesure p{
+		font-size: 30px;
+	}
+	.fio_edit{
+		width: 30px;
+		height: 30px;
+	}
+	.fio_edit img{
+		width: 30px;
+		height: 30px;
+	}
+	/*О себе и история*/
+	.osebe__title{
+		font-size: 40px;
+		width: 750px;
+		margin: 0 auto 20px auto;
+		text-align: center;
+	}
+	.osebe__text{
+		padding: 10px;
+		max-width: 720px;
+		margin: 0 auto;
+	}
+	.osebe__text p{
+		font-size: 30px;
+		padding: 15px;
+	}
+	.history__title{
+		font-size: 40px;
+		width: 750px;
+		margin: 0 auto 20px auto;
+	}
+	.history__name{
+		width: 720px;
+		margin: 0 auto;
+		padding: 20px 100px;
+	}
+	.name__sorev{
+		font-size: 20px;
+	}
+	.name__result{
+		font-size: 20px;
+	}
+	.history__column{
+		width: 720px;
+		margin: 0 auto;
+	}
+	.column__items{
+		padding: 20px;
+	}
+	.column__name{
+		width: 350px;
+		font-size: 20px;
+	}
+	.column__result{
+		font-size: 20px;
+	}
+}
+@media (min-width: 555px) and (max-width: 767px){
+	/*CONTAINER*/
+	.lkcontainer{
+		max-width: 550px;
+		margin: 0 auto;
+		padding: 0 5px;
+	}
+	/*CONTENT*/
+	.lk__title{
+		font-size: 50px;
+		margin: 200px auto 75px auto;
+	}
+	.lk__row{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.ld__number{
+		font-size: 20px;
+		margin: 0 0 10px 0;
+		padding: 0;
+	}
+	.ld__faculties{
+		font-size: 25px;
+		margin: 0 0 10px 0;
+		padding: 0;
+	}
+	.ld__img img{
+		max-width: 150px;
+		max-height: 150px;
+	}
+	.ld__img:after{
+		max-width: 60px;
+		max-height: 60px;
+		margin: 0;
+		padding: 30px;
+	}
+	.ld__role{
+		font-size: 25px;
+		margin: 0 0 10px 0;
+		padding: 0;
+	}
+	.namesure{
+		font-size: 25px;
+		margin: 0 20px 0 0;
+	}
+	.fio_edit{
+		max-height: 25px;
+		margin: 0;
+	}
+	.fio_edit img{
+		max-width: 25px;
+		max-height: 25px;
+	}
+
+	/* O SEBE and RESULTS*/
+	.osebe__title{
+		font-size: 30px;
+		margin: 0 0 20px 0;
+		text-align: center;
+	}
+	.osebe__text{
+		max-width: 530px;
+		padding: 10px;
+	}
+	.osebe__text p{
+		font-size: 20px;
+		padding: 10px;
+	}
+	.history__title{
+		font-size: 30px;
+		width: 550px;
+		margin: 0 auto 20px auto;
+	}
+	.history__name{
+		width: 550px;
+		margin: 0 auto;
+		padding: 20px 80px;
+	}
+	.name__sorev{
+		font-size: 15px;
+	}
+	.name__result{
+		font-size: 15px;
+	}
+	.history__column{
+		width: 550px;
+		margin: 0 auto;
+	}
+	.column__items{
+		padding: 15px;
+	}
+	.column__name{
+		width: 250px;
+		font-size: 15px;
+	}
+	.column__result{
+		width: 200px;
+		padding: 5px;
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 554px){
+	.lkcontainer{
+		max-width: 320px;
+		margin: 0 auto;
+	}
+	/*CONTENT*/
+	.content.lkcontent{
+		padding: 75px 0 20px 0;
+	}
+	.lk__title{
+		font-size: 35px;
+		margin: 100px auto 50px auto;
+	}
+	.lk__row{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.ld__number{
+		font-size: 15px;
+		margin: 0 0 10px 0;
+		padding: 0;
+	}
+	.ld__faculties{
+		font-size: 20px;
+		margin: 0 0 10px 0;
+		padding: 0;
+	}
+	.ld__img img{
+		max-width: 88px;
+		max-height: 88px;
+	}
+	.ld__img:after{
+		width: 28px;
+		height: 30px;
+		margin: 0;
+		padding: 17px;
+	}
+	.ld__role{
+		font-size: 20px;
+		margin: 0 0 10px 0;
+		padding: 0;
+	}
+	.ld__fio{
+		flex-direction: column;
+	}
+	.namesure{
+		font-size: 20px;
+		margin: 0 0 20px 0;
+	}
+	.namesure .fio_name{
+		margin: 0 5px 0 0;
+	}
+	.namesure .fio_surname{
+		margin: 0 0 0 5px;
+	}
+	.fio_edit{
+		max-height: 20px;
+		margin: 0;
+	}
+	.fio_edit img{
+		max-width: 15px;
+		max-height: 15px;
+	}
+
+	.lk__ld{
+		margin: 0 0 20px 0;
+	}
+
+	/* O SEBE and RESULTS*/
+	.lk__osebe{
+		margin: 0 0 20px 0;
+	}
+	.osebe__title{
+		font-size: 20px;
+		margin: 0 0 20px 0;
+		text-align: center;
+	}
+	.osebe__text{
+		max-width: 320px;
+		padding: 10px;
+	}
+	.osebe__text p{
+		font-size: 15px;
+		padding: 5px;
+	}
+	.history__title{
+		font-size: 20px;
+		width: 320px;
+		margin: 0 auto 20px auto;
+		text-align: center;
+	}
+	.history__name{
+		width: 320px;
+		margin: 0 auto;
+		padding: 15px 40px;
+	}
+	.name__sorev{
+		font-size: 10px;
+	}
+	.name__result{
+		font-size: 10px;
+	}
+	.history__column{
+		width: 320px;
+		margin: 0 auto;
+	}
+	.column__items{
+		padding: 10px;
+	}
+	.column__name{
+		width: 150px;
+		font-size: 10px;
+		padding: 0 5px;
+	}
+	.column__result{
+		width: 100px;
+		font-size: 10px;
+		padding: 0 5px;
+	}
+}

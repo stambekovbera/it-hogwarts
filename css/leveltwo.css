@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-transform: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------------------*/
+body{
+
+    font-family: 'Montserrat';
+    font-size: 25px;
+
+}
+
+@font-face {
+    font-family: 'Harry Potter';
+    src: url('../fonts/HarryPotterRussianVersionofGfdtk.eot');
+    src: url('../fonts/HarryPotterRussianVersionofGfdtk.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HarryPotterRussianVersionofGfdtk.woff2') format('woff2'),
+        url('../fonts/HarryPotterRussianVersionofGfdtk.woff') format('woff'),
+        url('../fonts/HarryPotterRussianVersionofGfdtk.ttf') format('truetype'),
+        url('../fonts/HarryPotterRussianVersionofGfdtk.svg#HarryPotterRussianVersionofGfdtk') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.pages{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1540px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content{
+    background: url("../img/content__img.jpg") center repeat;
+    background-size: contain;
+    max-width: 100%;
+    color: #fff;
+    animation: bgcontent linear 350s infinite;
+    animation-direction: alternate;
+    flex: 1 0;
+    padding-bottom: 100px;
+}
+
+@keyframes bgcontent{
+    0%{
+        background-position-x: 0px;
+        background-position-y: 0px;
+    }
+    50%{
+        background-position-x: 3000px;
+        background-position-y: 2000px;
+    }
+    100%{
+        background-position-x: 2000px;
+        background-position-y: 4000px;
+    }
+}
+
+
+/*Тайтл и кнопка хом*/
+
+.levelmagic{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon_home{
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.level__title{
+    font-size: 60px;
+    font-weight: 500;
+    margin: 100px auto;
+    text-transform: uppercase;
+}
+
+/*content*/
+
+.lang__column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang__row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lang__item{
+    width: 619px;
+    height: 350px;
+    margin: 50px 35px;
+    transition: all 0.3s linear;
+}
+
+.lang__item:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 55px 20px rgba(255,255,255,0.3);
+}
+
+.java{
+    background: url("../img/JAVA.jpg") center no-repeat;
+    background-size: cover;
+}
+.java:hover{
+    background: url(../img/JAVA_hover.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.javascript{
+    background: url("../img/js.jpg") center no-repeat;
+    background-size: cover;
+}
+.javascript:hover{
+    background: url("../img/js_hover.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.php{
+    background: url("../img/php.jpg") center no-repeat;
+    background-size: cover;
+}
+.php:hover{
+    background: url("../img/php_hover.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.python{
+    background: url("../img/python.jpg") center no-repeat;
+    background-size: cover;
+}
+.python:hover{
+    background: url("../img/python_hover.jpg") center no-repeat;
+    background-size: cover;
+}
+.ccc{
+    background: url("../img/c.jpg") center no-repeat;
+    background-size: cover;
+}
+.ccc:hover{
+    background: url("../img/c_hover.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.html{
+    background: url("../img/html+css.jpg") center no-repeat;
+    background-size: cover;
+}
+.html:hover{
+    background: url("../img/html+css_hover.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.item__title{
+    font-size: 24px;
+    color: #E3D798;
+    margin: 20px 0 0 30px;
+}
+
+.item__subtitle{
+    font-size: 80px;
+    font-family: 'Harry Potter';
+    font-weight: 500;
+    margin: 30px;
+}
+
+.item__button{
+    width: 225px;
+    height: 51px;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0 0 40px 40px #3a3a3a inset, 0 0 0 0 #3a3a3a;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 11px 32px;
+    margin: 120px auto 0 auto;
+    transition: all .3s linear;
+    border-radius: 5px;
+}
+
+.item__button:hover{
+    box-shadow: 0 0 10px 0 #fff inset, 0 0 10px 4px #3a3a3a;
+    background: url(../img/button__img.jpg) 0 0 repeat;
+    background-size: contain;
+    color: #fff;
+    animation: bgcontent linear 1500s infinite;
+    animation-direction: alternate;
+}
+
+.content__button{
+    font-size: 40px;
+    margin: 100px auto 0 auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 30px 5px;
+    border-radius: 5px;
+    max-width: 800px;
+    box-shadow: 0 0 40px 40px #3a3a3a inset, 0 0 0 0 #3a3a3a;
+    transition: all .3s linear;
+}
+.content__button:hover{
+    box-shadow: 0 0 10px 0 #fff inset, 0 0 10px 4px #3a3a3a;
+    background: url(../img/button__img.jpg) 0 0 repeat;
+    background-size: contain;
+    color: #fff;
+    animation: bgcontent linear 1500s infinite;
+    animation-direction: alternate;
+}
+
+/*footer*/
+
+.footer{
+    color: #fff;
+    width: 100%;
+    padding: 50px 50px;
+    background: rgba(0, 0, 0);
+    flex: 0 0 auto;
+}
+
+.footer__row{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.row__item{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    flex-wrap: wrap;
+}
+.row__item a{
+    text-decoration: none;
+    color: #fff;
+}
+.item__number{
+    margin: 0 0 37px 0;
+}
+.number:before{
+    content: ' ';
+    width: 32px;
+    height: 32px;
+    background: url(../icon/phone.svg) 0 0 no-repeat;
+    background-size: contain;
+    padding: 0 35px 0 0;
+}
+.item__mail{
+    margin: 0 0 37px 0;
+}
+.mail:before{
+    content: '';
+    width: 32px;
+    height: 32px;
+    background: url(../icon/mail.svg) 0 0 no-repeat;
+    background-size: contain;
+    padding: 0 35px 0 0;
+}
+.item__social{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.discord{
+    width: 50px;
+    height: 50px;
+    background: url(../icon/discord.svg) 0 0 no-repeat;
+    background-size: contain;
+}
+.inst{
+    width: 50px;
+    height: 50px;
+    background: url(../icon/instagram.svg) 0 0 no-repeat;
+    background-size: contain;
+}
+.youtube{
+    width: 50px;
+    height: 50px;
+    background: url(../icon/youtube.svg) 0 0 no-repeat;
+    background-size: contain;
+}
+
+.row__text{
+    max-width: 635px;
+    text-align: center;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.row__logo{
+    max-width: 140px;
+    max-height: 153px;
+}
+.row__logo img{
+    max-width: 140px;
+    max-height: 153px;
+}
+
+@media (min-width: 555px) and (max-width: 768px){
+    /*CONTAINER*/
+    .levelcontainer{
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    /*CONTENT*/
+    .level__title{
+        font-size: 40px;;
+    }
+    .lang__item{
+        width: 500px;
+        height: 350px;
+        margin: 50px 0;
+    }
+    .item__title{
+        font-size: 20px;
+        margin: 20px;
+
+    }
+    .item__subtitle{
+        font-size: 60px;
+        margin: 20px;
+    }
+    .item__button{
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+        padding: 10px 10px;
+        margin: 120px auto 0 auto;
+    }
+    .content__button{
+        font-size: 20px;
+        margin: 20px auto 0 auto;
+        padding: 20px 5px;
+        max-width: 370px;
+    }
+}
+@media (max-width: 555px){
+        /*CONTAINER*/
+        .levelcontainer{
+            max-width: 320px;
+            margin: 0 auto;
+        }
+
+        /*CONTENT*/
+        .level__title{
+            font-size: 20px;
+            margin: 150px auto 30px auto;
+            text-align: center;
+
+        }
+        .lang__item{
+            width: 300px;
+            height: 150px;
+            margin: 30px 0;
+        }
+        .item__title{
+            font-size: 10px;
+            margin: 10px;
+
+        }
+        .item__subtitle{
+            font-size: 40px;
+            margin: 10px;
+        }
+        .item__button{
+            width: 100px;
+            height: 20px;
+            font-size: 10px;
+            padding: 5px 0 0 0;
+            margin: 40px auto 0 auto;
+        }
+        .content__button{
+            font-size: 10px;
+            margin: 20px auto 0 auto;
+            padding: 15px 5px;
+            max-width: 220px;
+        }
+}
